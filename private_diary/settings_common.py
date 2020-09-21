@@ -160,3 +160,7 @@ ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 ACCOUNT_LOGOUT_ON_GET = True
 
 MEDIA_URL = '/media/'
+
+# バックアップバッチ用
+BACKUP_PATH = 'backup/'
+NUM_SAVED_BACKUP = 30
